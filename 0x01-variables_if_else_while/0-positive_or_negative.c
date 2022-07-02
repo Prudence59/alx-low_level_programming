@@ -4,15 +4,11 @@
 
 #include <stdio.h>
 
-/**
- *
- *  * main - Determine if the last digit of a number is zero or not.
- *
- *   *
- *
- *    * Return: 0 on success
- *
- *     */
+/*
+ *   main - Determine if the last digit of a number is zero or not.
+*
+*   Return: 0 on success
+ */
 
 int main(void)
 
@@ -20,13 +16,9 @@ int main(void)
 
 	int n;
 
-
-
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
-
-
 
 	if (n <=0)
 
@@ -37,7 +29,6 @@ int main(void)
 	}
 
 
-
 	else if (n > 5)
 
 	{
@@ -45,7 +36,6 @@ int main(void)
 		        printf("%d is %s\n", n, "and is greater than n");
 
 	}
-
 
 
 	else
