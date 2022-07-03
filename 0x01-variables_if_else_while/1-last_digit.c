@@ -19,7 +19,7 @@ printf("%d is %s\n", n, "and is 0");
 
 }
 else if (n > 5)
-{{
+{
 printf("%d is %s\n", n, "and is greater than n");
 
 }
