@@ -13,9 +13,10 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-putchar(c++);
+putchar(c);
 }
 }
+int main(void)
 {
 char c1
 
@@ -24,6 +25,6 @@ for (c1 = 'A'; c1 <= 'Z'; c1++)
 putchar(c1);
 }
 
-putchar(...'9\n');
+putchar(...'\n');
 return (0);
 }
