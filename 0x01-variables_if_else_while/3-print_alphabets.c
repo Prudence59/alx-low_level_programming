@@ -13,15 +13,17 @@ char c;
 
 for (c = 'a'; c <= 'z'; c++)
 {
-putchar(c);
+putchar(c++);
 }
 }
-
-for (c = 'A'; c <= 'Z'; c++)
 {
-putchar(c);
+char c1
+
+for (c1 = 'A'; c1 <= 'Z'; c1++)
+{
+putchar(c1);
 }
 
-putchar('\n');
+putchar(...'9\n');
 return (0);
 }
