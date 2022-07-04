@@ -5,7 +5,7 @@
 /**
  *  * main - Prints the alphabetic in lower and upper case
  *   *
- *    * Return: Always (Success)
+ *   * Return: Always (Success)
  */
 int main(void)
 {
@@ -15,13 +15,14 @@ for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
-char c1;
+char c;
 
-for (c1 = 'A'; c1 <= 'Z'; c1++)
+for (c = 'A'; c <= 'Z'; c++)
 {
-putchar(c1);
+putchar(c);
 }
 
-putchar(...'\n');
+putchar(c...'\n');
+
 return (0);
 }
