@@ -1,38 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
- * main - Determine if the last digit of a number is zero or not.
- *
- * Return: 0 on success
+ *main -> assign a random number to the variable n each time it is executed
+ *and print the last digit of the number stored in the variable n
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	int main(void)
+int ch;
 
+for (ch = 97; ch <= 122; ch++)
 {
-int n;
-
-char last[] = "Last digit of";
-
-srand(time(0));
-
-n = rand() - RAND_MAX / 2;
-
-printf("%s %d is %d and is ", last, n, n % 10);
-
-if (n % 10 > 5)
-
-{
-printf("greater than 5\n");
+putchar(ch);
 }
-else if (n % 10 == 0)
-{
-printf("0\n");
-}
-else
-{
-printf("less than 6 and not 0\n");
-}
+putchar(10); /* this is an ascii code for new line*/
+
 return (0);
 }
+
