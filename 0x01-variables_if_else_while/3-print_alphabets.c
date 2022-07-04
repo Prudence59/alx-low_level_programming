@@ -15,10 +15,7 @@ for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
-}
-int main(void)
-{
-char c1
+char c1;
 
 for (c1 = 'A'; c1 <= 'Z'; c1++)
 {
