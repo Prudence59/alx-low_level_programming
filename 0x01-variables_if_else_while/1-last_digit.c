@@ -9,13 +9,12 @@
 int main(void)
 {
 int n;
-
+char Last[] = "Last digit of";
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 if (n <= 0)
-{
-printf("%d is %s\n", n, "and is 0");
+{printf("%d is %s\n", n, "and is 0");
 
 }
 else if (n > 5)
