@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<header.h>
+#include "main.h"
 
 /**
  * main -Prnts exactly
@@ -8,7 +8,6 @@
  */
 
 int main(void)
-int main.h
 
 {
 	printf("_putchar");
