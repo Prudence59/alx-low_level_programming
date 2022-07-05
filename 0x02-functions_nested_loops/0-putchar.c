@@ -7,6 +7,8 @@
  */
 
 int main(void)
+int main.h
+
 {
 	printf("_putchar");
 		printf("\n");
