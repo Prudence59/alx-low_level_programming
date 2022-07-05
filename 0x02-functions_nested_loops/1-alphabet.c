@@ -1,21 +1,14 @@
- /*
- * File: 1-alphabet.c
- *
- * Auth: kosi
- */
-
 #include "main.h"
 
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
- */
-void print_alphabet(void)
+ * main - program that prints the alphabet in lowercase, followed by a new line.
+*Return: Always 0(success)
+*/
+int main void
+char c;
+for(c=a;c<=z;c++);
 {
-	char alpha;
+	_putchar(c);
 
-	for (alpha = 97; alpha <= 122; alpha++)
-		_putchar(alpha);
-
-
-	putchar('\n');
+	_putchar('\n');
 }
