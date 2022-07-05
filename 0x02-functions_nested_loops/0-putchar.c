@@ -5,8 +5,8 @@
 *
 *Return: Always 0(Success)
 */
-void _putchar (char c)
-{7
+int _putchar (char c)
+{
 	_putchar("95");
 	_putchar("112");
 	_putchar("117");
