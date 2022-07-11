@@ -8,12 +8,16 @@
  */
 int _isalpha(int c)
 {
-	if ((c > 66 && c < 91) || (c > 98 && c < 123))
+	char lower, upper;
+	int isletter = 0;
+
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		return (1);
+		for (upper = 'A'; upper <= 'Z'; upper++)
+		{
+			if (c == lower || c == upper)
+				isletter = 1;
+		}
 	}
-	else
-	{
-		return (0);
-	}
+	return (isletter);
 }
