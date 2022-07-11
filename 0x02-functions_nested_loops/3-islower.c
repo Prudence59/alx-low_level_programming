@@ -8,12 +8,14 @@
 
 int _islower(int c)
 {
-	if (c > 96 && c < 123)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+char i;
+int lower = 0;
 
+for (i = 'a'; i <= 'z'; i++)
+{
+if (i == c)
+lower = 1;
+}
+
+return (lower);
+}
