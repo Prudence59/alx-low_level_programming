@@ -1,4 +1,3 @@
-Bytes
 #include "main.h"
 #include <stdio.h>
 /**
@@ -7,7 +6,7 @@ Bytes
  *    *
  *     * Return: this function print from n to 98
  */
-void print_to_98(int n)
+void print_to8_98(int n)
 {
 if (n <= 98)
 {
