@@ -1,4 +1,6 @@
+#include <stdio.h>
 #include "main.h"
+
 /**
  *  * print_to_98 - from n to 98
  *   * @n: integer
