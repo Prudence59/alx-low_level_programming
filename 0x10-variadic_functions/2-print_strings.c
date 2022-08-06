@@ -8,7 +8,7 @@
  *
  * @n : number of strings passed to the function
  *
- * Return : void
+ * Return : string
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 
@@ -27,7 +27,8 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		printf("%s", str);
 	else
 		printf("(nil)");
-	if (separator && i < n - 1)
+
+	if (i < n - 1 && separator)
 		printf("%s", separator);
 	}
 		printf("\n");
