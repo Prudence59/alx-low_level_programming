@@ -13,9 +13,9 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 
 {
-	va_list valist;
 	unsigned int i;
 	char *str;
+	va_list valist;
 
 	va_start(valist, n);
 
@@ -31,9 +31,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	if (i < n - 1 && separator)
 		printf("%s", separator);
 	}
-		printf("\n");
 
-		va_end(valist);
+	printf("\n");
+	va_end(valist);
 }
 
 
